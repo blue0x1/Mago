@@ -37,6 +37,7 @@ Mago is a JavaFX-based shell generator tool that creates payloads for Linux, Win
    java -jar target/mago-1.0.0.jar
 4. Alternatively, you can download a release from the  page and run it directly.
 
+![image](https://github.com/user-attachments/assets/89265a0b-7f22-44e8-afe1-3baade8cbdae)
 
  ## Usage
 
@@ -49,4 +50,8 @@ Mago is a JavaFX-based shell generator tool that creates payloads for Linux, Win
 ## Releases
 
 You can download the latest release of Mago directly from the [Releases page](https://github.com/blue0x1/Mago/releases).
+
+## Disclaimer
+
+**This tool is intended for educational purposes only. We do not promote or endorse any harmful activities. The developer takes no responsibility for any misuse of the software. Use it responsibly and ethically.**
 
