@@ -173,30 +173,30 @@ public class Main extends Application {
         aboutStage.initModality(Modality.APPLICATION_MODAL);
         aboutStage.setTitle("About Mago");
         aboutStage.getIcons().add(new Image(getClass().getResource("/logo.png").toExternalForm()));
-        // Logo
+        
         ImageView logoView = new ImageView(new Image(getClass().getResource("/logo.png").toExternalForm()));
         logoView.setFitWidth(150);
         logoView.setFitHeight(230);
 
-        // Version label
+        
         Label versionLabel = new Label("Mago v1.0.0");
         versionLabel.setStyle("-fx-text-fill: #dcdcdc; -fx-font-size: 14px; -fx-font-style: italic;");
 
-        // Copyright label
+        
         Label rightsLabel = new Label("© 2024 Chokri Hammedi. All rights reserved.");
         rightsLabel.getStyleClass().add("copyright-label");
 
-        // GitHub link
+        
         Hyperlink githubLink = new Hyperlink("https://github.com/blue0x1");
         githubLink.getStyleClass().add("link-label");
         githubLink.setOnAction(e -> getHostServices().showDocument(githubLink.getText()));
 
-        // Layout for the dialog content
+    
         VBox contentBox = new VBox(10, logoView, versionLabel, rightsLabel, githubLink);
         contentBox.setPadding(new Insets(10));
         contentBox.setAlignment(Pos.CENTER);
 
-        // Scene for the dialog
+        
         Scene aboutScene = new Scene(contentBox, 400, 350);
         aboutScene.getStylesheets().add(getClass().getResource("/theme.css").toExternalForm());
         aboutStage.setScene(aboutScene);
