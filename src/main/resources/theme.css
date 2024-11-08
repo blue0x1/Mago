@@ -1,0 +1,194 @@
+.root {
+    -fx-background-color: #1e1e1e;
+    -fx-font-family: "San Francisco";
+}
+
+.hbox {
+    -fx-alignment: top-right;
+}
+
+.label {
+    -fx-text-fill: #dcdcdc;
+    -fx-font-size: 14px;
+}
+
+.text-field {
+    -fx-background-color: #333333;
+    -fx-text-fill: #dcdcdc;
+    -fx-prompt-text-fill: #888888;
+    -fx-border-color: #555555;
+    -fx-font-size: 14px;
+}
+
+.choice-box {
+    -fx-background-color: #333333;
+    -fx-border-color: #555555;
+    -fx-highlight-fill: #333333;
+    -fx-highlight-text-fill: #ffffff;
+    -fx-mark-color: #dcdcdc;
+}
+
+.check-box {
+    -fx-text-fill: #dcdcdc;
+}
+
+.check-box .box {
+    -fx-background-color: #333333;
+    -fx-border-color: #555555;
+    -fx-border-radius: 2px;
+    -fx-padding: 2px;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #555555;
+}
+
+.check-box:hover .box {
+    -fx-background-color: #444444;
+}
+
+.button {
+    -fx-background-color: #444444;
+    -fx-text-fill: #dcdcdc;
+    -fx-border-color: #555555;
+    -fx-cursor: hand;
+    -fx-padding: 5 15 5 15;
+}
+
+.button:hover {
+    -fx-background-color: #555555;
+}
+
+.text-area {
+    -fx-background-color: #333333;
+    -fx-control-inner-background: #333333;
+    -fx-text-fill: #dcdcdc;
+    -fx-padding: 10;
+    -fx-border-color: #555555;
+    -fx-font-family: "Courier New";
+    -fx-font-size: 13px;
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: #333333;
+    -fx-control-inner-background: #333333;
+    -fx-text-fill: white;
+}
+
+.combo-box-popup .list-cell {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+}
+
+.combo-box-popup .list-cell:hover {
+    -fx-background-color: #555555;
+}
+
+.combo-box-popup .list-cell:selected {
+    -fx-background-color: #1c1c1c;
+    -fx-text-fill: white;
+}
+
+.combo-box {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+    -fx-border-color: #555555;
+    -fx-border-radius: 4px;
+    -fx-padding: 5px;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+}
+
+.combo-box:hover {
+    -fx-background-color: #333355;
+}
+
+.combo-box .arrow {
+    -fx-background-color: #555555;
+    -fx-padding: 0;
+    -fx-shape: "M 0 0 L 4 4 L 8 0 Z";
+}
+
+.combo-box .arrow:hover {
+    -fx-background-color: #777777;
+}
+
+.combo-box:focused {
+    -fx-border-color: #777777;
+    -fx-background-color: #333333;
+}
+
+.combo-box .list-view .list-cell:filled:selected {
+    -fx-background-color: #555555;
+    -fx-text-fill: white;
+}
+
+.scroll-bar {
+    -fx-background-color: #333333;
+}
+
+.scroll-bar:vertical .thumb,
+.scroll-bar:horizontal .thumb {
+    -fx-background-color: #444444;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-padding: 0;
+}
+
+.scroll-bar:vertical .track,
+.scroll-bar:horizontal .track {
+    -fx-background-color: #333333;
+    -fx-background-insets: 0;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-background-color: #333333;
+}
+
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow {
+    -fx-background-color: #333333;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-background-color: #555555;
+}
+
+.dialog-pane {
+    -fx-background-color: #1e1e1e;
+    -fx-border-color: #555555;
+}
+
+.dialog-pane .label {
+    -fx-text-fill: #dcdcdc;
+}
+
+.dialog-pane .button {
+    -fx-background-color: #444444;
+    -fx-text-fill: #dcdcdc;
+}
+
+.dialog-pane .button:hover {
+    -fx-background-color: #555555;
+}
+
+.link-label {
+    -fx-text-fill: #1e90ff;
+    -fx-underline: true;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-border-color: transparent;
+}
+
+
+
+.copyright-label {
+    -fx-text-fill: #dcdcdc;
+    -fx-font-size: 12px;
+    -fx-font-style: italic;
+}
