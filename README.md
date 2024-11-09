@@ -16,6 +16,7 @@ Mago is a JavaFX-based shell generator tool that creates payloads for Linux, Win
 - Easy-to-use graphical user interface.
 - Supports Base64 and URL encoding for generated commands.
 - Lightweight and efficient.
+- 110+ Payload
 
 ## Requirements
 
